@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body {
+    margin: 0 ;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+/* ------------------------------------navbar ---------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    padding: 5px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    color: #000;
+    margin-right: 10px ;
+    padding: 0;
+}
+.menu,
+.menu2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li,
+.menu2 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a,
+.menu2 li a {
+    color: #706e6e;
+    font-size: small;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.menu li a:hover {
+    color: #000;
+    font-size: medium;
+}
+
+/* Specific styles for menu2 */
+.menu2 li a {
+    color: #000;
+    font-size: medium;
+}
+
+.menu2 li a:hover {
+    font-size: large;
+}
+
+
+
+/* --------------------- search enginge ------------------------------------------- */
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+input[type="text"] {
+    width: 800px ;
+    margin-left: 50px;
+    padding: 15px;
+    border: 1px solid #e0dede;
+    /* border-radius: 5px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #eeeded;
+}
+
+button {
+    padding: 15px 20px;
+    /* margin: -2; */
+    background-color:#00838C ;
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #09757A;
+}
+
+/* price details */
+.search-price{
+    color: #000;
+    
+}
+
+/* --------------------------- hero section ---------------------------------------- */
+
+.hero{
+    display: flex;
+    margin: 15px 60px;
+}
+
+.image-container {
+    background-image: url("./images/Beautiful-living-room-with-beautiful-wall.png");
+    background-position: center;
+    width: 70%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.hero-content{
+    padding: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.hero-context{
+    background-color: #D8EFEF;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 0 auto;
+}
+
+
+/* ----------------------------------- tables ------------------------------------- */
+.tables{
+    margin: 30px 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(203, 202, 202);
+}
+
+th,
+td {
+    padding: 0px 100px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #939191;
+}
+
+
+/* ------------------------------ middle part ----------------------------------------- */
+
+.middle {
+    margin: 0px 200px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.column {
+    flex: 1;
+    max-width: 50%;
+    padding: 0px;
+}
+
+.column img {
+    margin-top: 8px;
+    width: 100%;
+    
+}
+
+/* ----------------------------------- footer -------------------------- */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #bbb;
+    line-height: 1.5;
+    margin-top:  60px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.ft-content li a{
+    color: #939393;
+        font-size: small;
+        text-decoration: none;
+        padding: 5px 5px;
+}
+
+.ft-social-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-social-list li a{
+    color: #706e6e;
+        font-size: large;
+        text-decoration: none;
+        padding: 5px 10px;
+}
+
+.ft-legal{
+    padding: 10px ;
+    margin: 0 30px;
+}
+
+.ft-legal-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
